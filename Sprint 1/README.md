@@ -77,7 +77,7 @@ Colunas da tabela locação desnormalizada:
 
 Diagrama da modelagem relacional da concessionária:
 
-![](/Evidencias/ModelagemRelacional.png)
+![](Evidencias/ModelagemRelacional.png)
 
 Imagem da criação da tabela locação normalizada:
 
