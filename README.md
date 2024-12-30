@@ -1,12 +1,20 @@
-## Apresentação
+# Oi, eu sou Raiel Babinski!
+
 
 ![Minha foto](foto.png)
 
-Olá, sou Raiel Babinski e resido no interior de Nova Erechim.  Atualmente estou no quarto semestre de Ciência da Computação na Universidade Federal da Fronteira Sul. Desde criança tenho um grande interesse em computadores, boa parte por conta dos games e por influência de familiares, hoje estou muito feliz de poder ter minha primeira experiência profissional na área de tecnologia.
+## Apresentação
 
-## Sprints 
+- **Localização** : Nova Erechim - SC - Brasil.
+- **Universidade** : Universidade Federal da Fronteira Sul.
+- **Curso** : Ciência da Computação.
+- **Semestre Atual** : Quarto semestre.
+- **Conhecimentos** : Python, C, Java, GIT/GitHub e SQL. 
+- **Hobbies** : Jogar jogos indie, ir a academia e treinar Jiu Jitsu.
 
-1. [Sprint 1](Sprint%201/README.md)
+# Sprints 
+
+1. [Sprint 1](/Sprint%201//README.md)
 
 ___
 
