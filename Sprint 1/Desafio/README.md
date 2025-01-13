@@ -9,7 +9,7 @@ Essa é a documentação do Desafio final, que tinha como objetivo a normalizaç
 
 Para resolução do desafio foi nos dado a tabela concessionaria, que está desnormalizada. O desafio é reorganizar as colunas em novas tabelas com novos relacionamentos, respeitando as **Formas Normais**.
 
-![Colunas da tb_locacao](/Sprint_1/Evidencias/colunas_tbConces.png)
+![Colunas da tb_locacao](/Sprint%201/Evidencias/colunas_tbConces.png)
 
 Como essa tabela se refere as locações, um dos primeiros problemas, são informações que não se relacionam com a locação, como, por exemplo, a marca do carro. Um carro pode ser alugado mais de uma vez, e podem existir dois carros em uma concessionária com a mesma marca, ou duas pessoas que alocaram um carro com a mesma marca, isso gera repetição de dados. Então se for necessário atualizar a marca de um veículo, tera que modificar todos os registros repetidos na tabela locação.
 
