@@ -1,27 +1,51 @@
-# Instruções
+# 🎯 Desafio Sprint 3
 
-Neste arquivo você apresentará suas entregas referentes ao desafio. Utilize o diretório "Desafio" para organizar seus artefatos e este README.md para fazer referência aos arquivos de código-fonte e demais entregáveis solicitados.
+### O desafio da Sprint 3 consiste em 3 etapas:
 
-Esperamos que haja, minimamente:
+- **🧼 Limpeza de dados**: Etapa onde recebemos um CSV, oriundo de webscraping, com dados "sujos", e devemos limpar e disponibilizar esses dados para o processamento.
 
-- Passo a passo para obter o resultado entregue do desafio.
-- Trechos de códigos e suas explicações.
-- Relacionamento com a pasta de evidências (imagens).
+- **🛠️ Processamento de dados**: Agora com dados limpos, efetuamos o processamento para responder questões acerca da base de dados.
+
+- **🐳 Docker Compose**: Criar conteiners para cada processo, e rodar ambos com o uso do `docker-compose`.
+
+**Objetivo**: Prática com os conhecimentos de Docker e Python.
+
+## Recursos
+
+#### Ambiente
+
+ - **Docker (27.4.1)**
+ - **Docker-Compose (1.26.0)**
+
+#### Linguagem:
+ - **Python (3.11)**
+ - **Pandas (2.0.3)**
+ - **MatPlotLib (3.10.0)**
+ - **NumPy (1.26.1)**
 
 
-# Etapas
+## Desenvolvimento
 
+---
 
-1. ... [Etapa I](etapa-1)
+### ETL
 
-    Nessa etapa pode-se perceber com esse código:
-    ```
-    Esta é uma linha de código
-    ```
-    Obtive esse retorno
-    ![amostra](../Evidencias/sample.webp)
+A primeira etapa, tem como objetivo a limpesa de dados do csv "consert_tours_by_women", aqui mostro a análise de cada coluna, e o metodo para limpesa:
 
+![csv_sujo](../Evidencias/head_csv_sujo.png)
 
+ ---
 
+ - **Peak | All Time Gross | Ref**
+ 
+ **Problemas:** Vamos começar pela coluna Peak, All Time Peak e Ref, há vários problemas nelas, como na formatação dos dados, por exemplo, "2[7]" ou "10[7]" onde temos strings misturados com números, muitos campos Nans (não contem informação), e outro problema é que não sabemos exatamente oque essas colunas significam, ou seja, temos ambiguidade. 
+ 
+ **Resolução:** Como não podemos consultar o site do qual foi feito o web-scraping só retiramos do data-frame essas colunas inconsistentes.
 
+---
 
+ - **Actual gross | Adjusted gross | Average gross**
+
+**Problemas:** Todas as colunas estão em formato String, e as casas decimais separadas por ",", além de todas as informações começarem com "$".
+
+**Resolução:** Como vamos montar gráficos com as informações, é melhor que elas estejam em formato "int".

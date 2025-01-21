@@ -1,42 +1,52 @@
-# Instruções
+#  🏆 **Sprint 3**  🏆
 
-Este arquivo será o relato da sua entrega. Neste arquivo você fará a organização geral ao longo da Sprint. Esperamos que haja, minimamente:
+## 📚 **Conteúdos**
 
-- Uma ou mais seções para descrever o que estiver aprendendo (resumo), de maneira estruturada.
+### ☁️ **AWS Partner: Accreditation**  
 
-- Breve conteúdo de cada pasta relacionada a sprint.
+Aprendi sobre as ferramentas básicas da AWS, como planejar um projeto de migração para a nuvem, como executar esse projeto da melhor forma, e boas praticas para construção de sistemas eficientes.
 
-# Resumo
+---
 
-**Sql:** Aprendi isso, isso e mais aquilo.
+### 🐳 **Docker**  
 
-**Modelagem Relacional e Dimensional:** Pude entender como funciona isso e aquilo.
+**Nesse curso explorei a ferramenta docker, e aprendi sobre:**
 
-# Exercícios
+- Criação de containers
+- Criação de imagens para geração de containers
+- Criação de volumes e networks
+- Docker compose 
+- Docker Swarm
+- Kubernetes
 
+---
 
-1. ...
-[Resposta Ex1.](exercicios/ex1.sql)
+## 📝 **Exercícios**
 
+### **Exercício I - Carguru**  
+ 
+   [📂 Carguru](./Exercicios/etapa-1/carguru.py)  
 
-2. ...
-[Resposta Ex2.](exercicios/ex2.py)
+   [📂 Dockerfile](./Exercicios/etapa-1/dockerfile)  
 
+   ![📂 Evidência](./Exercicios/etapa-1/Evidencia1.png)  
 
+---
 
-# Evidências
+### **Exercício II - Mascaração de dados**  
 
+   [📂 Hash_encode](./Exercicios/etapa-2/hash_enc.py)  
+ 
+   [📂 Dockerfile](./Exercicios/etapa-2/dockerfile)  
 
-Ao executar o código do exercício ... observei que ... conforme podemos ver na imagem a seguir:
+   ![Evidência](./Exercicios/etapa-2/Evidencia2.png)   
 
-![Evidencia 1](evidencias/sample.webp)
+---
 
+### 🎯 [ Desafio ](./Desafio/README.md)
 
-# Certificados
+--- 
 
+## 🎓 **Certificados**  
 
-Certificado do Curso ABC
-
-![Curso ABC](certificados/sample.png)
-
-
+![Certificado Accreditation](./Certificados/AWS_Partner_Accreditation.png)
