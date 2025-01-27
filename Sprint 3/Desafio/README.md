@@ -198,7 +198,7 @@ Após limpar o dataframe, ele é tranformado em um csv chamado **"csv_limpo.csv"
  
 A imagem do dockerfile é a "python:3.11-slim", que já vem com o python, o código faz uso das bibliotecas pandas e regex, por isso existe um arquivo de "requirements.txt" listando as bibliotecas e as suas respectivas versões para instalação. Com as bibliotecas instaladas, é copiado para imagem o script python e base de dados csv, e em seguida o comando para começar o processamento:
 
-[📂 Dockerfile](./etl-I/dockerfile)
+[📂 Dockerfile](./etl-I/Dockerfile)
 
 **Comando para o build:**
 
@@ -224,7 +224,7 @@ OBS: No compose uso um volume externo onde compartilhava o arquivo "csv_limpo.cs
 
 O dockerfile do job e do etl são muito parecidos, uma das únicas coisas que muda, é o WORKDIR, e o arquivo de requirements.txt, que adiciona a biblioteca matplotlib.
 
-[📂 Dockerfile](./job-II/dockerfile)
+[📂 Dockerfile](./job-II/Dockerfile)
 
 **Comando para o build:**
 

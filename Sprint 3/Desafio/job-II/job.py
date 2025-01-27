@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 PATH_RESPOSTA = "/share/respostas.txt"
 
 def main():
+    
     df = pd.read_csv("/share/csv_limpo.csv")
     
     q1(df.copy())
@@ -119,6 +120,7 @@ def q4(df:pd.DataFrame):
     # Salva gráfico como png.
     plt.tight_layout()
     plt.savefig("/share/Q4.png", dpi=300)
+    plt.close("all")
 
 def q5(df:pd.DataFrame):
     # Filtra os 5 artistas com mais shows
@@ -129,7 +131,7 @@ def q5(df:pd.DataFrame):
     shows = df["Shows"]
 
     plt.bar(artist[::-1], shows[::-1], color="purple", alpha=0.8)
-
+    
     # Personaliza o gráfico
     plt.title("Quantidade Total de Shows por Artista", fontsize=14)
     plt.xlabel("Artista", fontsize=12)
