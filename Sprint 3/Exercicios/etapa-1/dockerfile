@@ -1,0 +1,8 @@
+FROM python:3.11-slim
+
+WORKDIR /carguru
+
+COPY . .
+
+CMD ["python", "carguru.py"]
+

@@ -1,0 +1,15 @@
+version: '3.3'
+
+services:
+  
+  etl:
+    build: ./etl-I
+    volumes:
+      - "./volume:/share"
+
+  job: 
+    depends_on:
+      - etl
+    build: ./job-II
+    volumes:
+      - "./volume:/share"

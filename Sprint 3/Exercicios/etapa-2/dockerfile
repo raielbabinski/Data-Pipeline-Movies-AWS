@@ -1,0 +1,7 @@
+FROM python:3.11-slim
+
+WORKDIR /hash_enc
+
+COPY . .
+
+CMD ["python", "hash_enc.py"]
