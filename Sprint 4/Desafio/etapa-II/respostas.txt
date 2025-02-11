@@ -1,0 +1,38 @@
+-- Pergunta 1: 
+
+Qual é o número total de ocorrências por tipo de operação 
+onde houve ao menos uma lesão fatal ou grave?
+
+Resposta:
+
+Voo Privado : 648 
+Operação Agrícola : 183 
+Táxi Aéreo : 109 
+Voo de Instrução : 78 
+Operação Especializada : 36 
+Voo Experimental : 25 
+Operação Pública : 24 
+Voo Regular : 22 
+Desconhecida : 3 
+Operação Policial : 3 
+Operação Militar : 1 
+Voo não regular : 1 
+
+-- Pergunta 2: 
+
+Qual é a proporção de ocorrências com danos 'Destruída', 
+que aconteceram na fase de pouso, para aeronaves com mais de 4 assentos?
+
+Resposta:
+
+Durante a fase de pouso 1.61% das ocorências 
+acarretaram na destruição da aeronave.
+
+-- Pergunta 3: 
+
+Proporção de ocorrências que aconteceram no ano de 2023, 
+onde a descrição do tipo de ocorrência contém a palavra 'colisão'?
+
+Resposta:
+
+7.96% das ocorrências de 2023 contêm a palavra 'colisão'
