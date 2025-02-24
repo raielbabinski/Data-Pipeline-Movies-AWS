@@ -120,7 +120,7 @@ Esse processo se repete até que todas as páginas sejam enviadas para o bucket 
 
 ---
 
-Terminado o código na máquina local, passei para uma função lambda. Não teve muitas mudanças no código, somente adicionei o logger para visualizar os loggs no CloudWatch, e a camada da AWS "PandasLayer" para usar a biblioteca requests.
+Terminado o código na máquina local, passei para uma função lambda. Não teve muitas mudanças no código, somente adicionei o logger para visualizar os loggs no CloudWatch, troquei a main pelo lambda_handler, e a camada da AWS "PandasLayer" para usar a biblioteca requests.
 
 Função lambda na AWS:
 
