@@ -1,0 +1,9 @@
+texto = spark.sparkContext.textFile("/home/jovyan/texto.md")
+palavras = texto.flatMap(lambda linha : linha.split())
+def contador(palavra):
+    return (palavra, 1)
+ 
+contar = palavras.map(contador)
+contagem_final = contar.reduceByKey(lambda x,y : x + y)
+for palavra,qtd in contagem_final.collect():
+    print(f"{palavra}:{qtd}")
