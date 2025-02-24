@@ -37,8 +37,7 @@ Essa etapa consistia em enviar os dados para o S3 por meio de um docker, então 
 
 [📂 Ingestão](./etapa-I/ingestao.py)
 
-O script é simples, ele cria o cliente "s3", e envia os dois arquivos csvs para suas respectivas pastas dentro do S3, as credenciais da AWS são acessadas por meio de um arquivo com variáveis de ambiente.
-
+O script é simples, ele cria o cliente "s3", e envia os dois arquivos csvs para suas respectivas pastas dentro do S3.
 ---
 
 ### 2 - Docker
