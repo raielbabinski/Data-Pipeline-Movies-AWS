@@ -25,7 +25,7 @@ Sempre fui apaixonado por jogos eletrônicos desde a infância, o que despertou 
 2. [Sprint 2](/Sprint%202//README.md)  
 3. [Sprint 3](/Sprint%203//README.md)
 4. [Sprint 4](/Sprint%204//README.md)
-
+5. [Sprint 5](/Sprint%205//README.md)
 ---
 
 

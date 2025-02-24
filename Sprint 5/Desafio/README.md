@@ -6,7 +6,7 @@ O desafio da Sprint 5, são as duas primeiras etapas do Desafio final, que consi
 
 Os dados complementares que serão ingeridos do TMDB, irão levar como base algumas perguntas que gostaria de responder na etapa final, meu squad teve como tema Terror/Mistério, então desenvolvi meu questionamento baseado neles.
 
-## Pergunta
+## Análise
 
 Como se deu a evolução da popularidade dos filmes de terror até a década de 90?
 
