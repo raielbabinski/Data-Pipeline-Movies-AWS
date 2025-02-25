@@ -8,9 +8,9 @@ Os dados complementares que serão ingeridos do TMDB, irão levar como base algu
 
 ## Análise
 
-Como se deu a evolução da popularidade dos filmes de terror até a década de 90?
+Como se deu a evolução da popularidade dos filmes de terror até a década de 80?
 
-O objetivo da minha análise vai ser tentar investigar como os filmes de terror se tornaram populares antes da década de 90, pesquisando na internet 1980-1990 é considerado por muitos o período com os melhores e mais relevantes filmes de terror, então meu objetivo é tentar entender como esses filmes se desenvolveram ao longo do tempo, como se tornaram populares e ganhar o seu espaço no mercado.
+O objetivo da minha análise vai ser tentar investigar como os filmes de terror se tornaram populares antes da década de 80, pesquisando na internet 1980-1990 é considerado por muitos o período com os melhores e mais relevantes filmes de terror, então meu objetivo é tentar entender como esses filmes se desenvolveram ao longo do tempo, como se tornaram populares e ganhar o seu espaço no mercado.
 
 ### Questionamentos
 
