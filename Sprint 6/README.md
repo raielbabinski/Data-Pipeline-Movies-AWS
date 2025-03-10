@@ -28,12 +28,7 @@ A playlist traz vídeos introdutórios em português, sobre análise de dados na
 
 [📂 etapa II](./Exercicios/ex1/etapa2.py)
 
-- [📂 animais](./Exercicios/ex1/txts/animais.txt)
-
 [📂 etapa III](./Exercicios/ex1/etapa3.py)
-
-- [📂 nomes aleatórios](./Exercicios/ex1/txts/nomes_aleatorios.txt)
-
 
 
 ### **Exercício II - Apache Spark**
